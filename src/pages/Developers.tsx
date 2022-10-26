@@ -8,6 +8,13 @@ const Developers = () => {
                 {/* Add your profile here. You can upload your image to the repo under "images"  directory
                     and link it here.                
                 */}
+           <div className="flex flex-wrap justify-center">
+                    <div className="w-64 sm:w-64 px-4">
+                        <img src="images/1662725162212.jpg" alt="..." className="shadow rounded-full max-w-full h-auto align-middle border-none" />
+                    </div>
+                    <h3 className='font-bold mr-1'>Jesse Cris Calugay, </h3>
+                    <p className='font-thin italic'>Front End Developer</p>
+                </div>           
                 {/* grid item */}
                 <div className="flex flex-wrap justify-center">
                     <div className="w-64 sm:w-64 px-4">
